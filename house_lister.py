@@ -40,7 +40,7 @@ house = houses = []
 found = False
 
 # Opens a file called house.txt to access database
-database = open("C:\\Users\\hasan\\Desktop\\house.txt","r")
+database = open("house.txt","r") # Can Change file location
 # Reads a line from the file into variable called data
 data = database.readline()
 
@@ -271,7 +271,7 @@ while num < 1 or num > 7:
             num = 0
         case 7:
             # Open the file and write the houses data to newhouse.txt
-            database = open("C:\\Users\\hasan\\Desktop\\newhouse.txt", "w")
+            database = open("newhouse.txt", "w") # Can change file location
             for house in houses:
                 database.write("\t".join(house) + "\n")
             database.close()
