@@ -19,7 +19,7 @@ The program reads house data from a file called `houses.txt` (which should be sp
 
 ### Requirements:
 - Python 3.9 or greater
-- A `houses.txt` file containing existing house data. Each house record is stored in a tab-separated format with the following details:
+- A `house.txt` file containing existing house data. Each house record is stored in a tab-separated format with the following details:
   - House ID#
   - Address
   - Cost ($)
@@ -27,11 +27,11 @@ The program reads house data from a file called `houses.txt` (which should be sp
   - Year Built
 
 ### File Structure:
-1. `houses.txt` (text file containing house records to be loaded by the program).
-2. `newhouses.txt` (output file where updated house data is saved after any modifications).
+1. `house.txt` (text file containing house records to be loaded by the program).
+2. `newhouse.txt` (output file where updated house data is saved after any modifications).
 
 ### Instructions:
-1. Place the `houses.txt` file in the same directory as the program or specify its file path in the code.
+1. Place the `house.txt` file in the same directory as the program or specify its file path in the code.
 2. Run the program in a Python 3.9+ environment.
 3. Use the menu options to interact with the program and manage house records.
 
